@@ -1,0 +1,33 @@
+.List-Card {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+    width: 60%;
+    flex-wrap: wrap;
+    border: 2px solid #ccc;
+    padding: 20px;
+    border-radius: 50px;
+    margin-top: 20px;
+}
+
+.Item-Card {
+    margin: 10px 10px 0 28px;
+}
+
+.Body-Card {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.Image-Card > img {
+    width: 200px;
+    height: auto;
+    border-radius: 20px;
+}
+
+.Button-Card {
+    display: flex;
+    justify-content: center;
+}

@@ -1,0 +1,53 @@
+.CardIm {
+    display: flex;
+    width: 80%;
+    margin: 20px;
+    background-color: #f9f8f8;
+    padding: 20px;
+}
+
+.Image-CardIm > img {
+    width: 570px;
+    height: auto;
+    position: relative;
+}
+
+.Image-CardIm > p {
+    position: absolute;
+    top: 593px;
+    z-index: 1;
+    font-size: 15px;
+    left: 335px;
+    font-weight: 700;
+    color: white;
+}
+
+.Image-CardIm::after {
+    content: ' ';
+    position: absolute;
+    width: 200px;
+    background-color: #1E90FF;
+    border: 2px solid #ccc;
+    border-style: dashed;
+    height: 50px;
+    left: 300px;
+    top: 575px;
+}
+
+.Image-CardIm::before {
+    left: 294px;
+    content: ' ';
+    width: 17px;
+    height: 18px;
+    position: absolute;
+    background-color: #1E90FF;
+    top: 579px;
+    border: 2px solid #ccc;
+    border-style: dashed;
+    transform: rotate(26deg);
+}
+
+.Text-CardIm {
+    width: 830px;
+    margin-left: 100px;
+}
